@@ -48,5 +48,5 @@ if __name__ == "__main__":
     for agent in Agents:
         agent.start()
 
-    for worker in workers:
+    for worker in Agents:
         worker.join()
